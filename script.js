@@ -34,7 +34,7 @@ function encriptar() {
       ajustarAlturaTextArea(area2);
 
     }) () : (() => {
-      notifica("No existe ningun mensaje");
+      notifica("");
 
     })();
     return mensajeEncriptado;
@@ -61,7 +61,7 @@ function desencriptar() {
       ajustarAlturaTextArea(area2);
 
     }) () : (() => {
-      notifica("No existe ningun mensaje");
+      notifica("");
 
     })();
         return mensajeDesencriptado;

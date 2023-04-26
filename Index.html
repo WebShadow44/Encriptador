@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Encriptador_Challenge One</title>
+     <link rel="stylesheet" href="Reset.css">
+     <link rel="stylesheet" href="challenge.css">
+ </head>
+ <body>
+      <header>
+         <h1 class="LogoAlura"> <img src="Images/Logo.png" alt="Logo"></h1>
+      </header>
+
+      <main class="Principal">
+
+         <div class="Mensaje">
+             <textarea id="mensaje" placeholder="Ingrese el texto aquí" autocapitalize="none" pattern="[a-z ]*" 
+              oninput="this.value = this.value.replace(/[^a-z\n ]/g, '')" style="height: 154px;" class="__web-inspector-hide-shortcut__"></textarea>
+
+             <div class="Aviso">
+                 <img src="Images/bi_exclamation-circle-fill-1.png" alt="Signo advertencia">
+                 <p>Solo letras minusculas, sin acentos ni caracteres especiales</p>
+             </div>
+    
+              <div class="Botones-Encriptar-Desencriptar">
+                 <button class="Encriptar" type="button" onclick="encriptar()"> Encriptar</button>
+                 <button class="Desencriptar" type="button" onclick="desencriptar()"> Desencriptar</button>
+              </div>
+         </div>
+
+          <div class="Contenedor">
+             <textarea readonly id="resultado">
+               Ningun mensaje encontrado
+               Ingrese el texto a encriptar o desencriptar
+             </textarea>
+
+              <div class="Copiar">
+                 <button class="btn" onclick="copiar()">Copiar</button>
+              </div>
+         </div>
+
+         <div id="Notificacion">
+             <p id="notificacion"></p>
+         </div>
+      </main>
+
+     <footer>
+          <div class="Logos">
+             <a href="https://github.com/WebShadow44"><img src="Images/logotipo-de-github.png" alt="github" class="logo-github"/></a>
+
+             <a href="https://www.linkedin.com/in/alejandro-liñan-825340270"><img src="Images/logotipo-de-linkedin.png" alt="Linkedin" class="logo-linkedin"/></a>
+           </div>
+
+           <div class="contenedor-copy">
+              <p>&copy; 2023 por Alejandro Liñan</p>
+           </div>
+       </footer>
+
+      <script src="script.js"></script>
+ </body>
+
+</html>

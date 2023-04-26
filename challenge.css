@@ -1,0 +1,201 @@
+@import url(Reset.css);
+
+header{
+    margin: 10px 0;
+}
+
+.LogoAlura {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+  
+.LogoAlura img {
+    width: auto;
+    height: auto;
+    padding: 15px 0;
+}
+
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    min-height: 100vh;
+    
+}
+
+.principal{
+    width: 100%;
+    padding: 10px auto;
+}
+
+.Mensaje{
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+
+#mensaje,#resultado{
+    width: 95%;
+    max-width: 95%;
+    height: 50%;
+    max-height: auto;
+    resize: none;
+    border-style: none;
+    justify-content: center;
+    margin: 10px 15px;
+    padding: auto;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+}
+
+#mensaje{
+    width: 90%;
+    max-width: 95%;
+    min-height: 200px;
+    resize: none;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    background-color: white;
+    border-style: none;
+    font-family: 'Inter';
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#resultado{
+    width: 90%;
+    max-width: 95%;
+    min-height: 400px;
+    resize: none;
+    margin: 10px 10px;
+    padding: 10px 50px;
+    background-color: white;
+    border-style: none;
+    font-family: 'Inter';
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#resultado {
+    background-image: url(Images/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.5;
+}
+
+.Aviso{
+    margin: 10px 0;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aviso img{
+    padding-right: 10px;
+}
+
+.Botones-Encriptar-Desencriptar{
+    padding: 10px 20px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Encriptar{
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #0A3871;
+    color: black;
+    background-color: white;
+    transition: 1s all;
+}
+
+.Encriptar:hover{
+    background: #0a3871;
+    transform: scale(0.99);
+}
+
+.Desencriptar{
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #0A3871;
+    color: black;
+    background-color: white;
+    transition: 1s all;
+}
+
+.Desencriptar:hover{
+    background: #0a3871;
+    transform: scale(0.99);
+}
+
+.Copiar{
+    padding: 10px 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #0A3871;
+    color: black;
+    background-color: white;
+    transition: 1s all;
+}
+
+.btn:hover{
+    background: #0a3871;
+    transform: scale(0.99);
+}
+
+footer {
+    padding: 10px 10px;
+    background-color: #0A3871;
+}
+
+.Logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logos img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px;
+    padding: auto;
+}
+
+.contenedor-copy{
+    display: flex;
+    justify-content: center;
+}

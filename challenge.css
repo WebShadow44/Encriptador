@@ -55,12 +55,10 @@ body{
 }
 
 #mensaje{
-    width: 90%;
     max-width: 95%;
     min-height: 200px;
     resize: none;
     margin: 10px 10px;
-    padding: 10px 50px;
     background-color: white;
     border-style: none;
     font-family: 'Inter';
@@ -74,12 +72,10 @@ body{
 }
 
 #resultado{
-    width: 90%;
     max-width: 95%;
-    min-height: 400px;
+    min-height: 300px;
     resize: none;
     margin: 10px 10px;
-    padding: 10px 50px;
     background-color: white;
     border-style: none;
     font-family: 'Inter';
